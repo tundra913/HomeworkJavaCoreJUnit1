@@ -45,7 +45,7 @@ class CalculatorTest {
         int y = 2;
         int expected = 1;
         int actual = calc.devide.apply(x, y);
-        assertSame(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
